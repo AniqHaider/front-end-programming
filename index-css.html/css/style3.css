@@ -1,0 +1,20 @@
+body {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+body > header > h3 {
+  background: #fff
+  color: #0f0
+}
+
+h1 {
+  color: #0ff;
+  display: inline;
+}
+
+body h3 {
+  color: #f0f;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 30px;
+}
