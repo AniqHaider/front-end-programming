@@ -1,0 +1,7 @@
+{
+  "name" : "Simple Youtube Downloader",
+  "description": "Download simpler videos than before.",
+  "version": "0.1",
+  "author": "Aniq Haider"
+  "manifest_version": 3
+}
