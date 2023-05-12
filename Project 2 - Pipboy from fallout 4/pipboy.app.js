@@ -34,7 +34,7 @@ $(document).ready(function() {
 
     $('.item-list a').on('mouseenter', function(e){
       var current_item = $(e.currentTarget).attr('class');
-      console.log(current_item);
+      console.log("the gun",current_item , e , e.currentTarget);
 
       for(item in weapons){
         if(weapons[item].name == current_item){

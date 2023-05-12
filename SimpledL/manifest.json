@@ -1,7 +1,21 @@
 {
   "name" : "Simple Youtube Downloader",
-  "description": "Download simpler videos than before.",
+  "description": "Download youtube videos simpler than before.",
   "version": "0.1",
-  "author": "Aniq Haider"
-  "manifest_version": 3
+  "author": "Aniq Haider",
+  "manifest_version": 3,
+  "web_accessible_resources": ["src/youtubedl.js"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch?v=UFwvRkBo8cM&ab_channel=VootKids"],
+      "js": ["src/loader.js"],
+      "css": ["src/swaggify.css"]
+    }
+  ],
+  "permissions": [
+    "downloads"
+  ],
+  "background":{
+    "scripts": "src/background.js"
+  }
 }

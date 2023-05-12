@@ -10,6 +10,6 @@ function missingno(numbers){
 
   return missing;
 }
-var numbers = [3 , 8, 7, 9 , 6, 4, 12, 5, 14, 19, 16, 18, 11, 10, 13, 17, 20];
+var numbers = [3 , 8, 7, 9 , 6, 4,12, 5, 14, 19, 16, 18, 11, 10, 13, 17, 20];
 
 console.log(missingno(numbers))
